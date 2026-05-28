@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns="http://reporting.pentaho.org/namespaces/engine/classic/bundle/layout/1.0"
+        xmlns:core="http://reporting.pentaho.org/namespaces/engine/attributes/core"
+        xmlns:style="http://reporting.pentaho.org/namespaces/engine/classic/bundle/style/1.0">
+
+  <report-header>
+
+    <!-- ======================================================= -->
+    <!-- TITLE BANNER                                             -->
+    <!-- ======================================================= -->
+    <rectangle>
+      <style:element-style>
+        <style:key name="x">0.0</style:key>      <style:key name="y">0.0</style:key>
+        <style:key name="width">523.0</style:key> <style:key name="height">40.0</style:key>
+        <style:key name="fill-color">#1E3A8A</style:key>
+        <style:key name="fill-shape">true</style:key>
+        <style:key name="draw-shape">false</style:key>
+      </style:element-style>
+    </rectangle>
+    <label>
+      <style:element-style>
+        <style:key name="x">10.0</style:key>      <style:key name="y">8.0</style:key>
+        <style:key name="width">503.0</style:key> <style:key name="height">24.0</style:key>
+        <style:key name="font-name">Arial</style:key>
+        <style:key name="font-size">12</style:key>
+        <style:key name="font-bold">true</style:key>
+        <style:key name="text-color">#FFFFFF</style:key>
+        <style:key name="alignment">center</style:key>
+      </style:element-style>
+      <core:value>IDENTIFICATIEFORMULIER NIET-GEVAARLIJKE AFVALSTOFFEN</core:value>
+    </label>
+
+    <!-- Indicator row -->
+    <label>
+      <style:element-style>
+        <style:key name="x">0.0</style:key>       <style:key name="y">45.0</style:key>
+        <style:key name="width">110.0</style:key> <style:key name="height">15.0</style:key>
+        <style:key name="font-name">Arial</style:key> <style:key name="font-size">9</style:key>
+        <style:key name="font-bold">true</style:key>  <style:key name="text-color">#2D3748</style:key>
+      </style:element-style>
+      <core:value>Aanvoer / Afvoer:</core:value>
+    </label>
+    <message>
+      <style:element-style>
+        <style:key name="x">115.0</style:key>     <style:key name="y">45.0</style:key>
+        <style:key name="width">408.0</style:key> <style:key name="height">15.0</style:key>
+        <style:key name="font-name">Arial</style:key> <style:key name="font-size">9</style:key>
+        <style:key name="font-bold">true</style:key>  <style:key name="text-color">#1E3A8A</style:key>
+      </style:element-style>
+      <core:value>$(AfvaltransportAanvoer__afvoer)</core:value>
+    </message>
+
+    <!-- ======================================================= -->
+    <!-- SECTION 1 â€“ CHAUFFEUR &amp; VOERTUIG                    -->
+    <!-- ======================================================= -->
+    <rectangle>
+      <style:element-style>
+        <style:key name="x">0.0</style:key>       <style:key name="y">65.0</style:key>
+        <style:key name="width">523.0</style:key> <style:key name="height">35.0</style:key>
+        <style:key name="stroke-color">#CBD5E0</style:key> <style:key name="stroke-width">1.0</style:key>
+        <style:key name="draw-shape">true</style:key> <style:key name="fill-shape">false</style:key>
+      </style:element-style>
+    </rectangle>
+    <rectangle>
+      <style:element-style>
+        <style:key name="x">0.0</style:key>       <style:key name="y">65.0</style:key>
+        <style:key name="width">523.0</style:key> <style:key name="height">15.0</style:key>
+        <style:key name="fill-color">#EDF2F7</style:key>
+        <style:key name="fill-shape">true</style:key> <style:key name="draw-shape">false</style:key>
+      </style:element-style>
+    </rectangle>
+    <label>
+      <style:element-style>
+        <style:key name="x">5.0</style:key> <style:key name="y">67.0</style:key>
+        <style:key name="width">513.0</style:key> <style:key name="height">12.0</style:key>
+        <style:key name="font-name">Arial</style:key> <style:key name="font-size">8</style:key>
+        <style:key name="font-bold">true</style:key>  <style:key name="text-color">#4A5568</style:key>
+      </style:element-style>
+      <core:value>CHAUFFEUR &amp; VOERTUIG</core:value>
+    </label>
+    <label>
+      <style:element-style>
+        <style:key name="x">5.0</style:key>  <style:key name="y">83.0</style:key>
+        <style:key name="width">60.0</style:key> <style:key name="height">12.0</style:key>
+        <style:key name="font-name">Arial</style:key> <style:key name="font-size">8</style:key>
+        <style:key name="font-bold">true</style:key>  <style:key name="text-color">#4A5568</style:key>
+      </style:element-style>
+      <core:value>Chauffeur:</core:value>
+    </label>
+    <message>
+      <style:element-style>
+        <style:key name="x">70.0</style:key> <style:key name="y">83.0</style:key>
+        <style:key name="width">180.0</style:key> <style:key name="height">12.0</style:key>
+        <style:key name="font-name">Arial</style:key> <style:key name="font-size">8</style:key>
+        <style:key name="text-color">#1E3A8A</style:key>
+      </style:element-style>
+      <core:value>$(WerknemerNaam) $(WerknemerVoornaam)</core:value>
+    </message>
+    <label>
+      <style:element-style>
+        <style:key name="x">270.0</style:key> <style:key name="y">83.0</style:key>
+        <style:key name="width">70.0</style:key>  <style:key name="height">12.0</style:key>
+        <style:key name="font-name">Arial</style:key> <style:key name="font-size">8</style:key>
+        <style:key name="font-bold">true</style:key>  <style:key name="text-color">#4A5568</style:key>
+      </style:element-style>
+      <core:value>Nummerplaat:</core:value>
+    </label>
+    <message>
+      <style:element-style>
+        <style:key name="x">345.0</style:key> <style:key name="y">83.0</style:key>
+        <style:key name="width">170.0</style:key> <style:key name="height">12.0</style:key>
+        <style:key name="font-name">Arial</style:key> <style:key name="font-size">8</style:key>
+        <style:key name="text-color">#1E3A8A</style:key>
+      </style:element-style>
+      <core:value>$(VoertuigenNummerplaat)</core:value>
+    </message>
+
+    <!-- ======================================================= -->
+    <!-- SECTION 2 â€“ OPDRACHTGEVER | OVERBRENGER                 -->
+    <!-- ======================================================= -->
+    <rectangle>
+      <style:element-style>
+        <style:key name="x">0.0</style:key>       <style:key name="y">110.0</style:key>
+        <style:key name="width">523.0</style:key> <style:key name="height">55.0</style:key>
+        <style:key name="stroke-color">#CBD5E0</style:key> <style:key name="stroke-width">1.0</style:key>
+        <style:key name="draw-shape">true</style:key> <style:key name="fill-shape">false</style:key>
+      </style:element-style>
+    </rectangle>
+    <rectangle>
+      <style:element-style>
+        <style:key name="x">0.0</style:key>       <style:key name="y">110.0</style:key>
+        <style:key name="width">523.0</style:key> <style:key name="height">15.0</style:key>
+        <style:key name="fill-color">#EDF2F7</style:key>
+        <style:key name="fill-shape">true</style:key> <style:key name="draw-shape">false</style:key>
+      </style:element-style>
+    </rectangle>
+    <rectangle>
+      <style:element-style>
+        <style:key name="x">261.0</style:key> <style:key name="y">110.0</style:key>
+        <style:key name="width">1.0</style:key>   <style:key name="height">55.0</style:key>
+        <style:key name="fill-color">#CBD5E0</style:key>
+        <style:key name="fill-shape">true</style:key> <style:key name="draw-shape">false</style:key>
+      </style:element-style>
+    </rectangle>
+    <label>
+      <style:element-style>
+        <style:key name="x">5.0</style:key>   <style:key name="y">112.0</style:key>
+        <style:key name="width">250.0</style:key> <style:key name="height">12.0</style:key>
+        <style:key name="font-name">Arial</style:key> <style:key name="font-size">8</style:key>
+        <style:key name="font-bold">true</style:key>  <style:key name="text-color">#4A5568</style:key>
+      </style:element-style>
+      <core:value>OPDRACHTGEVER</core:value>
+    </label>
+    <label>
+      <style:element-style>
+        <style:key name="x">270.0</style:key> <style:key name="y">112.0</style:key>
+        <style:key name="width">250.0</style:key> <style:key name="height">12.0</style:key>
+        <style:key name="font-name">Arial</style:key> <style:key name="font-size">8</style:key>
+        <style:key name="font-bold">true</style:key>  <style:key name="text-color">#4A5568</style:key>
+      </style:element-style>
+      <core:value>OVERBRENGER</core:value>
+    </label>
+    <label>
+      <style:element-style>
+        <style:key name="x">5.0</style:key>  <style:key name="y">128.0</style:key>
+        <style:key name="width">40.0</style:key> <style:key name="height">12.0</style:key>
+        <style:key name="font-name">Arial</style:key> <style:key name="font-size">8</style:key>
+        <style:key name="font-bold">true</style:key>  <style:key name="text-color">#4A5568</style:key>
+      </style:element-style>
+      <core:value>Naam:</core:value>
+    </label>
+    <message>
+      <style:element-style>
+        <style:key name="x">50.0</style:key> <style:key name="y">128.0</style:key>
+        <style:key name="width">205.0</style:key> <style:key name="height">12.0</style:key>
+        <style:key name="font-name">Arial</style:key> <style:key name="font-size">8</style:key>
+        <style:key name="text-color">#1E3A8A</style:key>
+      </style:element-style>
+      <core:value>$(WerkficheCode_1)</core:value>
+    </message>
+    <label>
+      <style:element-style>
+        <style:key name="x">5.0</style:key>  <style:key name="y">143.0</style:key>
+        <style:key name="width">40.0</style:key> <style:key name="height">12.0</style:key>
+        <style:key name="font-name">Arial</style:key> <style:key name="font-size">8</style:key>
+        <style:key name="font-bold">true</style:key>  <style:key name="text-color">#4A5568</style:key>
+      </style:element-style>
+      <core:value>Adres:</core:value>
+    </label>
+    <label>
+      <style:element-style>
+        <style:key name="x">270.0</style:key> <style:key name="y">128.0</style:key>
+        <style:key name="width">40.0</style:key> <style:key name="height">12.0</style:key>
+        <style:key name="font-name">Arial</style:key> <style:key name="font-size">8</style:key>
+        <style:key name="font-bold">true</style:key>  <style:key name="text-color">#4A5568</style:key>
+      </style:element-style>
+      <core:value>Naam:</core:value>
+    </label>
+    <message>
+      <style:element-style>
+        <style:key name="x">315.0</style:key> <style:key name="y">128.0</style:key>
+        <style:key name="width">200.0</style:key> <style:key name="height">12.0</style:key>
+        <style:key name="font-name">Arial</style:key> <style:key name="font-size">8</style:key>
+        <style:key name="text-color">#1E3A8A</style:key>
+      </style:element-style>
+      <core:value>$(WerkficheCode_1)</core:value>
+    </message>
+    <label>
+      <style:element-style>
+        <style:key name="x">270.0</style:key> <style:key name="y">143.0</style:key>
+        <style:key name="width">40.0</style:key> <style:key name="height">12.0</style:key>
+        <style:key name="font-name">Arial</style:key> <style:key name="font-size">8</style:key>
+        <style:key name="font-bold">true</style:key>  <style:key name="text-color">#4A5568</style:key>
+      </style:element-style>
+      <core:value>Adres:</core:value>
+    </label>
+
+    <!-- ======================================================= -->
+    <!-- SECTION 3 â€“ HERKOMST | BESTEMMING                       -->
+    <!-- ======================================================= -->
+    <rectangle>
+      <style:element-style>
+        <style:key name="x">0.0</style:key>       <style:key name="y">175.0</style:key>
+        <style:key name="width">523.0</style:key> <style:key name="height">85.0</style:key>
+        <style:key name="stroke-color">#CBD5E0</style:key> <style:key name="stroke-width">1.0</style:key>
+        <style:key name="draw-shape">true</style:key> <style:key name="fill-shape">false</style:key>
+      </style:element-style>
+    </rectangle>
+    <rectangle>
+      <style:element-style>
+        <style:key name="x">0.0</style:key>       <style:key name="y">175.0</style:key>
+        <style:key name="width">523.0</style:key> <style:key name="height">15.0</style:key>
+        <style:key name="fill-color">#EDF2F7</style:key>
+        <style:key name="fill-shape">true</style:key> <style:key name="draw-shape">false</style:key>
+      </style:element-style>
+    </rectangle>
+    <rectangle>
+      <style:element-style>
+        <style:key name="x">261.0</style:key> <style:key name="y">175.0</style:key>
+        <style:key name="width">1.0</style:key>   <style:key name="height">85.0</style:key>
+        <style:key name="fill-color">#CBD5E0</style:key>
+        <style:key name="fill-shape">true</style:key> <style:key name="draw-shape">false</style:key>
+      </style:element-style>
+    </rectangle>
+    <label>
+      <style:element-style>
+        <style:key name="x">5.0</style:key>   <style:key name="y">177.0</style:key>
+        <style:key name="width">250.0</style:key> <style:key name="height">12.0</style:key>
+        <style:key name="font-name">Arial</style:key> <style:key name="font-size">8</style:key>
+        <style:key name="font-bold">true</style:key>  <style:key name="text-color">#4A5568</style:key>
+      </style:element-style>
+      <core:value>HERKOMST</core:value>
+    </label>
+    <label>
+      <style:element-style>
+        <style:key name="x">270.0</style:key> <style:key name="y">177.0</style:key>
+        <style:key name="width">250.0</style:key> <style:key name="height">12.0</style:key>
+        <style:key name="font-name">Arial</style:key> <style:key name="font-size">8</style:key>
+        <style:key name="font-bold">true</style:key>  <style:key name="text-color">#4A5568</style:key>
+      </style:element-style>
+      <core:value>BESTEMMING</core:value>
+    </label>
+    <label>
+      <style:element-style>
+        <style:key name="x">5.0</style:key>  <style:key name="y">193.0</style:key>
+        <style:key name="width">40.0</style:key> <style:key name="height">12.0</style:key>
+        <style:key name="font-name">Arial</style:key> <style:key name="font-size">8</style:key>
+        <style:key name="font-bold">true</style:key>  <style:key name="text-color">#4A5568</style:key>
+      </style:element-style>
+      <core:value>Naam:</core:value>
+    </label>
+    <message>
+      <style:element-style>
+        <style:key name="x">50.0</style:key> <style:key name="y">193.0</style:key>
+        <style:key name="width">205.0</style:key> <style:key name="height">12.0</style:key>
+        <style:key name="font-name">Arial</style:key> <style:key name="font-size">8</style:key>
+        <style:key name="text-color">#1E3A8A</style:key>
+      </style:element-style>
+      <core:value>$(WerfWerfnaam)</core:value>
+    </message>
+    <label>
+      <style:element-style>
+        <style:key name="x">5.0</style:key>  <style:key name="y">208.0</style:key>
+        <style:key name="width">40.0</style:key> <style:key name="height">12.0</style:key>
+        <style:key name="font-name">Arial</style:key> <style:key name="font-size">8</style:key>
+        <style:key name="font-bold">true</style:key>  <style:key name="text-color">#4A5568</style:key>
+      </style:element-style>
+      <core:value>Adres:</core:value>
+    </label>
+    <message>
+      <style:element-style>
+        <style:key name="x">50.0</style:key> <style:key name="y">208.0</style:key>
+        <style:key name="width">205.0</style:key> <style:key name="height">12.0</style:key>
+        <style:key name="font-name">Arial</style:key> <style:key name="font-size">8</style:key>
+        <style:key name="text-color">#1E3A8A</style:key>
+      </style:element-style>
+      <core:value>$(WerfWerfadresAdres_1)</core:value>
+    </message>
+    <message>
+      <style:element-style>
+        <style:key name="x">50.0</style:key> <style:key name="y">223.0</style:key>
+        <style:key name="width">205.0</style:key> <style:key name="height">12.0</style:key>
+        <style:key name="font-name">Arial</style:key> <style:key name="font-size">8</style:key>
+        <style:key name="text-color">#1E3A8A</style:key>
+      </style:element-style>
+      <core:value>$(WerfWerfadresPostcode) $(WerfWerfadresGemeente)</core:value>
+    </message>
+    <message>
+      <style:element-style>
+        <style:key name="x">5.0</style:key> <style:key name="y">241.0</style:key>
+        <style:key name="width">250.0</style:key> <style:key name="height">12.0</style:key>
+        <style:key name="font-name">Arial</style:key> <style:key name="font-size">7</style:key>
+        <style:key name="text-color">#1E3A8A</style:key>
+      </style:element-style>
+      <core:value>Werf nr: $(WerfWerfnr)   |   Project nr: $(WerfProjectProjectnr)</core:value>
+    </message>
+    <label>
+      <style:element-style>
+        <style:key name="x">270.0</style:key> <style:key name="y">193.0</style:key>
+        <style:key name="width">40.0</style:key> <style:key name="height">12.0</style:key>
+        <style:key name="font-name">Arial</style:key> <style:key name="font-size">8</style:key>
+        <style:key name="font-bold">true</style:key>  <style:key name="text-color">#4A5568</style:key>
+      </style:element-style>
+      <core:value>Naam:</core:value>
+    </label>
+    <message>
+      <style:element-style>
+        <style:key name="x">315.0</style:key> <style:key name="y">193.0</style:key>
+        <style:key name="width">200.0</style:key> <style:key name="height">12.0</style:key>
+        <style:key name="font-name">Arial</style:key> <style:key name="font-size">8</style:key>
+        <style:key name="text-color">#1E3A8A</style:key>
+      </style:element-style>
+      <core:value>$(VerwerkersBedrijfsnaam)</core:value>
+    </message>
+    <label>
+      <style:element-style>
+        <style:key name="x">270.0</style:key> <style:key name="y">208.0</style:key>
+        <style:key name="width">40.0</style:key> <style:key name="height">12.0</style:key>
+        <style:key name="font-name">Arial</style:key> <style:key name="font-size">8</style:key>
+        <style:key name="font-bold">true</style:key>  <style:key name="text-color">#4A5568</style:key>
+      </style:element-style>
+      <core:value>Adres:</core:value>
+    </label>
+    <message>
+      <style:element-style>
+        <style:key name="x">315.0</style:key> <style:key name="y">208.0</style:key>
+        <style:key name="width">200.0</style:key> <style:key name="height">12.0</style:key>
+        <style:key name="font-name">Arial</style:key> <style:key name="font-size">8</style:key>
+        <style:key name="text-color">#1E3A8A</style:key>
+      </style:element-style>
+      <core:value>$(VerwerkersStraat)</core:value>
+    </message>
+    <message>
+      <style:element-style>
+        <style:key name="x">315.0</style:key> <style:key name="y">223.0</style:key>
+        <style:key name="width">200.0</style:key> <style:key name="height">12.0</style:key>
+        <style:key name="font-name">Arial</style:key> <style:key name="font-size">8</style:key>
+        <style:key name="text-color">#1E3A8A</style:key>
+      </style:element-style>
+      <core:value>$(VerwerkersPostcode) $(VerwerkersGemeente)</core:value>
+    </message>
+
+    <!-- ======================================================= -->
+    <!-- SECTION 4 â€“ AFVALOMSCHRIJVING                           -->
+    <!-- ======================================================= -->
+    <rectangle>
+      <style:element-style>
+        <style:key name="x">0.0</style:key>       <style:key name="y">270.0</style:key>
+        <style:key name="width">523.0</style:key> <style:key name="height">65.0</style:key>
+        <style:key name="stroke-color">#CBD5E0</style:key> <style:key name="stroke-width">1.0</style:key>
+        <style:key name="draw-shape">true</style:key> <style:key name="fill-shape">false</style:key>
+      </style:element-style>
+    </rectangle>
+    <rectangle>
+      <style:element-style>
+        <style:key name="x">0.0</style:key>       <style:key name="y">270.0</style:key>
+        <style:key name="width">523.0</style:key> <style:key name="height">15.0</style:key>
+        <style:key name="fill-color">#EDF2F7</style:key>
+        <style:key name="fill-shape">true</style:key> <style:key name="draw-shape">false</style:key>
+      </style:element-style>
+    </rectangle>
+    <label>
+      <style:element-style>
+        <style:key name="x">5.0</style:key> <style:key name="y">272.0</style:key>
+        <style:key name="width">513.0</style:key> <style:key name="height">12.0</style:key>
+        <style:key name="font-name">Arial</style:key> <style:key name="font-size">8</style:key>
+        <style:key name="font-bold">true</style:key>  <style:key name="text-color">#4A5568</style:key>
+      </style:element-style>
+      <core:value>AFVALOMSCHRIJVING (Euralcode en omschrijving)</core:value>
+    </label>
+    <message>
+      <style:element-style>
+        <style:key name="x">5.0</style:key> <style:key name="y">291.0</style:key>
+        <style:key name="width">513.0</style:key> <style:key name="height">15.0</style:key>
+        <style:key name="font-name">Arial</style:key> <style:key name="font-size">9</style:key>
+        <style:key name="text-color">#1E3A8A</style:key>
+      </style:element-style>
+      <core:value>$(AfvaltransportRecyclage)</core:value>
+    </message>
+    <message>
+      <style:element-style>
+        <style:key name="x">5.0</style:key> <style:key name="y">311.0</style:key>
+        <style:key name="width">513.0</style:key> <style:key name="height">15.0</style:key>
+        <style:key name="font-name">Arial</style:key> <style:key name="font-size">9</style:key>
+        <style:key name="font-bold">true</style:key> <style:key name="text-color">#1E3A8A</style:key>
+      </style:element-style>
+      <core:value>Euralcode: $(Euralcode)</core:value>
+    </message>
+
+    <!-- ======================================================= -->
+    <!-- SECTION 5 â€“ OPMERKINGEN                                 -->
+    <!-- ======================================================= -->
+    <rectangle>
+      <style:element-style>
+        <style:key name="x">0.0</style:key>       <style:key name="y">345.0</style:key>
+        <style:key name="width">523.0</style:key> <style:key name="height">55.0</style:key>
+        <style:key name="stroke-color">#CBD5E0</style:key> <style:key name="stroke-width">1.0</style:key>
+        <style:key name="draw-shape">true</style:key> <style:key name="fill-shape">false</style:key>
+      </style:element-style>
+    </rectangle>
+    <rectangle>
+      <style:element-style>
+        <style:key name="x">0.0</style:key>       <style:key name="y">345.0</style:key>
+        <style:key name="width">523.0</style:key> <style:key name="height">15.0</style:key>
+        <style:key name="fill-color">#EDF2F7</style:key>
+        <style:key name="fill-shape">true</style:key> <style:key name="draw-shape">false</style:key>
+      </style:element-style>
+    </rectangle>
+    <label>
+      <style:element-style>
+        <style:key name="x">5.0</style:key> <style:key name="y">347.0</style:key>
+        <style:key name="width">513.0</style:key> <style:key name="height">12.0</style:key>
+        <style:key name="font-name">Arial</style:key> <style:key name="font-size">8</style:key>
+        <style:key name="font-bold">true</style:key>  <style:key name="text-color">#4A5568</style:key>
+      </style:element-style>
+      <core:value>OPMERKINGEN TE VERMELDEN OP STORTBON</core:value>
+    </label>
+    <message>
+      <style:element-style>
+        <style:key name="x">5.0</style:key> <style:key name="y">368.0</style:key>
+        <style:key name="width">513.0</style:key> <style:key name="height">25.0</style:key>
+        <style:key name="font-name">Arial</style:key> <style:key name="font-size">9</style:key>
+        <style:key name="text-color">#1E3A8A</style:key>
+      </style:element-style>
+      <core:value>Werkfiche nr: $(WerkficheNr)   |   $(WerkficheNaam)</core:value>
+    </message>
+
+    <!-- ======================================================= -->
+    <!-- SECTION 6 â€“ HANDTEKENINGEN                              -->
+    <!-- ======================================================= -->
+    <rectangle>
+      <style:element-style>
+        <style:key name="x">0.0</style:key>       <style:key name="y">410.0</style:key>
+        <style:key name="width">523.0</style:key> <style:key name="height">140.0</style:key>
+        <style:key name="stroke-color">#CBD5E0</style:key> <style:key name="stroke-width">1.0</style:key>
+        <style:key name="draw-shape">true</style:key> <style:key name="fill-shape">false</style:key>
+      </style:element-style>
+    </rectangle>
+    <rectangle>
+      <style:element-style>
+        <style:key name="x">0.0</style:key>       <style:key name="y">410.0</style:key>
+        <style:key name="width">523.0</style:key> <style:key name="height">15.0</style:key>
+        <style:key name="fill-color">#EDF2F7</style:key>
+        <style:key name="fill-shape">true</style:key> <style:key name="draw-shape">false</style:key>
+      </style:element-style>
+    </rectangle>
+    <!-- vertical separators -->
+    <rectangle>
+      <style:element-style>
+        <style:key name="x">172.0</style:key> <style:key name="y">410.0</style:key>
+        <style:key name="width">1.0</style:key> <style:key name="height">140.0</style:key>
+        <style:key name="fill-color">#CBD5E0</style:key>
+        <style:key name="fill-shape">true</style:key> <style:key name="draw-shape">false</style:key>
+      </style:element-style>
+    </rectangle>
+    <rectangle>
+      <style:element-style>
+        <style:key name="x">347.0</style:key> <style:key name="y">410.0</style:key>
+        <style:key name="width">1.0</style:key> <style:key name="height">140.0</style:key>
+        <style:key name="fill-color">#CBD5E0</style:key>
+        <style:key name="fill-shape">true</style:key> <style:key name="draw-shape">false</style:key>
+      </style:element-style>
+    </rectangle>
+    <!-- column headers -->
+    <label>
+      <style:element-style>
+        <style:key name="x">5.0</style:key>   <style:key name="y">412.0</style:key>
+        <style:key name="width">160.0</style:key> <style:key name="height">12.0</style:key>
+        <style:key name="font-name">Arial</style:key> <style:key name="font-size">7</style:key>
+        <style:key name="font-bold">true</style:key>  <style:key name="text-color">#4A5568</style:key>
+      </style:element-style>
+      <core:value>OPDRACHTGEVER / PRODUCENT</core:value>
+    </label>
+    <label>
+      <style:element-style>
+        <style:key name="x">180.0</style:key> <style:key name="y">412.0</style:key>
+        <style:key name="width">160.0</style:key> <style:key name="height">12.0</style:key>
+        <style:key name="font-name">Arial</style:key> <style:key name="font-size">7</style:key>
+        <style:key name="font-bold">true</style:key>  <style:key name="text-color">#4A5568</style:key>
+      </style:element-style>
+      <core:value>VERVOERDER</core:value>
+    </label>
+    <label>
+      <style:element-style>
+        <style:key name="x">355.0</style:key> <style:key name="y">412.0</style:key>
+        <style:key name="width">160.0</style:key> <style:key name="height">12.0</style:key>
+        <style:key name="font-name">Arial</style:key> <style:key name="font-size">7</style:key>
+        <style:key name="font-bold">true</style:key>  <style:key name="text-color">#4A5568</style:key>
+      </style:element-style>
+      <core:value>ONTVANGER</core:value>
+    </label>
+    <!-- sub-labels -->
+    <label>
+      <style:element-style>
+        <style:key name="x">5.0</style:key>   <style:key name="y">430.0</style:key>
+        <style:key name="width">160.0</style:key> <style:key name="height">12.0</style:key>
+        <style:key name="font-name">Arial</style:key> <style:key name="font-size">8</style:key>
+        <style:key name="font-italic">true</style:key> <style:key name="text-color">#718096</style:key>
+      </style:element-style>
+      <core:value>Naam + datum + handtekening</core:value>
+    </label>
+    <label>
+      <style:element-style>
+        <style:key name="x">180.0</style:key> <style:key name="y">430.0</style:key>
+        <style:key name="width">160.0</style:key> <style:key name="height">12.0</style:key>
+        <style:key name="font-name">Arial</style:key> <style:key name="font-size">8</style:key>
+        <style:key name="font-italic">true</style:key> <style:key name="text-color">#718096</style:key>
+      </style:element-style>
+      <core:value>Naam + datum + handtekening</core:value>
+    </label>
+    <message>
+      <style:element-style>
+        <style:key name="x">180.0</style:key> <style:key name="y">448.0</style:key>
+        <style:key name="width">160.0</style:key> <style:key name="height">12.0</style:key>
+        <style:key name="font-name">Arial</style:key> <style:key name="font-size">8</style:key>
+        <style:key name="text-color">#1E3A8A</style:key>
+      </style:element-style>
+      <core:value>$(WerkficheCode_1)</core:value>
+    </message>
+    <message>
+      <style:element-style>
+        <style:key name="x">180.0</style:key> <style:key name="y">463.0</style:key>
+        <style:key name="width">160.0</style:key> <style:key name="height">12.0</style:key>
+        <style:key name="font-name">Arial</style:key> <style:key name="font-size">8</style:key>
+        <style:key name="text-color">#1E3A8A</style:key>
+      </style:element-style>
+      <core:value>Datum: $(EventStart_Day)</core:value>
+    </message>
+    <message>
+      <style:element-style>
+        <style:key name="x">180.0</style:key> <style:key name="y">478.0</style:key>
+        <style:key name="width">160.0</style:key> <style:key name="height">12.0</style:key>
+        <style:key name="font-name">Arial</style:key> <style:key name="font-size">8</style:key>
+        <style:key name="text-color">#1E3A8A</style:key>
+      </style:element-style>
+      <core:value>$(WerknemerNaam) $(WerknemerVoornaam)</core:value>
+    </message>
+    <label>
+      <style:element-style>
+        <style:key name="x">355.0</style:key> <style:key name="y">430.0</style:key>
+        <style:key name="width">160.0</style:key> <style:key name="height">12.0</style:key>
+        <style:key name="font-name">Arial</style:key> <style:key name="font-size">8</style:key>
+        <style:key name="font-italic">true</style:key> <style:key name="text-color">#718096</style:key>
+      </style:element-style>
+      <core:value>Naam + datum + handtekening</core:value>
+    </label>
+    <message>
+      <style:element-style>
+        <style:key name="x">355.0</style:key> <style:key name="y">448.0</style:key>
+        <style:key name="width">160.0</style:key> <style:key name="height">12.0</style:key>
+        <style:key name="font-name">Arial</style:key> <style:key name="font-size">8</style:key>
+        <style:key name="text-color">#1E3A8A</style:key>
+      </style:element-style>
+      <core:value>$(VerwerkersBedrijfsnaam)</core:value>
+    </message>
+
+  </report-header>
+
+  <body>
+    <details/>
+  </body>
+
+</layout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest xmlns="urn:oasis:names:tc:opendocument:xmlns:manifest:1.0">
+  <file-entry media-type="application/vnd.pentaho.reporting-archive" full-path="/"/>
+  <file-entry media-type="text/xml" full-path="layout.xml"/>
+  <file-entry media-type="text/xml" full-path="styles.xml"/>
+  <file-entry media-type="text/xml" full-path="datadefinition.xml"/>
+  <file-entry media-type="text/xml" full-path="settings.xml"/>
+  <file-entry media-type="text/xml" full-path="meta.xml"/>
+</manifest>

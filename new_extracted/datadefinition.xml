@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data-definition xmlns="http://reporting.pentaho.org/namespaces/engine/classic/bundle/data/1.0">
+  <parameter-definition>
+    <parameter name="AfvaltransportAanvoer__afvoer" class="java.lang.String" value-type="java.lang.String"/>
+    <parameter name="WerknemerNaam"              class="java.lang.String" value-type="java.lang.String"/>
+    <parameter name="WerknemerVoornaam"          class="java.lang.String" value-type="java.lang.String"/>
+    <parameter name="VoertuigenNummerplaat"      class="java.lang.String" value-type="java.lang.String"/>
+    <parameter name="WerkficheCode_1"            class="java.lang.String" value-type="java.lang.String"/>
+    <parameter name="WerfWerfnaam"               class="java.lang.String" value-type="java.lang.String"/>
+    <parameter name="WerfWerfadresAdres_1"       class="java.lang.String" value-type="java.lang.String"/>
+    <parameter name="WerfWerfadresPostcode"      class="java.lang.String" value-type="java.lang.String"/>
+    <parameter name="WerfWerfadresGemeente"      class="java.lang.String" value-type="java.lang.String"/>
+    <parameter name="WerfWerfnr"                 class="java.lang.String" value-type="java.lang.String"/>
+    <parameter name="WerfProjectProjectnr"       class="java.lang.String" value-type="java.lang.String"/>
+    <parameter name="VerwerkersBedrijfsnaam"     class="java.lang.String" value-type="java.lang.String"/>
+    <parameter name="VerwerkersStraat"           class="java.lang.String" value-type="java.lang.String"/>
+    <parameter name="VerwerkersPostcode"         class="java.lang.String" value-type="java.lang.String"/>
+    <parameter name="VerwerkersGemeente"         class="java.lang.String" value-type="java.lang.String"/>
+    <parameter name="AfvaltransportRecyclage"    class="java.lang.String" value-type="java.lang.String"/>
+    <parameter name="Euralcode"                  class="java.lang.String" value-type="java.lang.String"/>
+    <parameter name="WerkficheNr"               class="java.lang.String" value-type="java.lang.String"/>
+    <parameter name="WerkficheNaam"             class="java.lang.String" value-type="java.lang.String"/>
+    <parameter name="EventStart_Day"            class="java.lang.String" value-type="java.lang.String"/>
+  </parameter-definition>
+</data-definition>

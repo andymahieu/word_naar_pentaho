@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<style-sheet xmlns="http://reporting.pentaho.org/namespaces/engine/classic/bundle/style/1.0">
+  <page-definition>
+    <page-format width="595.275590551181" height="841.8897637795276"
+                 orientation="portrait"
+                 margin-left="36.0" margin-right="36.0"
+                 margin-top="36.0"  margin-bottom="36.0"/>
+  </page-definition>
+</style-sheet>

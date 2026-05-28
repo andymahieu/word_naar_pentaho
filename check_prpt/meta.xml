@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<office:document-meta office:version="1.0"
+    xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0"
+    xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0">
+  <office:meta>
+    <meta:generator>Pentaho Report Designer 5.4</meta:generator>
+    <meta:title>Stortformulier</meta:title>
+    <meta:description>Identificatieformulier Niet-Gevaarlijke Afvalstoffen</meta:description>
+  </office:meta>
+</office:document-meta>
